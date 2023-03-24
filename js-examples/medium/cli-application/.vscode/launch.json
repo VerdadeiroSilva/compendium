@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "ConverterDebugger",
+      "skipFiles": ["<node_internals>/**"],
+      "args": [
+        "https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt",
+        "./debugging.txt"
+      ],
+      "program": "${workspaceFolder}/index.js"
+    }
+  ]
+}
